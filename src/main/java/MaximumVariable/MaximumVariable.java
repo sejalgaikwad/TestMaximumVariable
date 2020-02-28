@@ -22,4 +22,15 @@ public class MaximumVariable {
         }
         return maxValue;
     }
+
+    public String maximumString(String firstVariable, String secondVariable, String thirdVariable) {
+        String  maxValue=firstVariable;
+        if (secondVariable.compareTo(maxValue) > 0) {
+            maxValue = secondVariable;
+        }
+        if (thirdVariable.compareTo(maxValue) > 0) {
+            maxValue = thirdVariable;
+        }
+        return maxValue;
+    }
 }

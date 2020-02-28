@@ -44,4 +44,25 @@ public class MaximumVariableTest {
         float thirdFloat = maximumVariable.maximumFloat(2.1f, 12.4f, 21.5f);
         Assert.assertEquals(21.5f, thirdFloat, 0.0);
     }
+
+    @Test
+    public void whenGivenThreeString_shouldReturnFirstValueMaximum() {
+        MaximumVariable maximumVariable = new MaximumVariable();
+        String firstString = maximumVariable.maximumString("Peach","Apple","Banana");
+        Assert.assertEquals("Peach", firstString);
+    }
+
+    @Test
+    public void whenGivenThreeString_shouldReturnSecondValueMaximum() {
+        MaximumVariable maximumVariable = new MaximumVariable();
+        String secondString = maximumVariable.maximumString("Apple","Peach","Banana");
+        Assert.assertEquals("Peach", secondString);
+    }
+
+    @Test
+    public void whenGivenThreeString_shouldReturnThirdValueMaximum() {
+        MaximumVariable maximumVariable = new MaximumVariable();
+        String thirdString = maximumVariable.maximumString("Apple","Banana","Peach");
+        Assert.assertEquals("Peach", thirdString);
+    }
 }
