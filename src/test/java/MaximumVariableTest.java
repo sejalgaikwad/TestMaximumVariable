@@ -23,4 +23,25 @@ public class MaximumVariableTest {
         int thirdNumber = maximumVariable.maximumInteger(9, 12, 21);
         Assert.assertEquals(21, thirdNumber);
     }
+
+    @Test
+    public void whenGivenThreeFloat_shouldReturnFirstValueMaximum() {
+        MaximumVariable maximumVariable = new MaximumVariable();
+        float firstFloat = maximumVariable.maximumFloat(27.1f, 12.4f, 21.5f);
+        Assert.assertEquals(27.1f, firstFloat, 0.0);
+    }
+
+    @Test
+    public void whenGivenThreeFloat_shouldReturnSecondValueMaximum() {
+        MaximumVariable maximumVariable = new MaximumVariable();
+        float secondFloat = maximumVariable.maximumFloat(2.1f, 29.4f, 21.5f);
+        Assert.assertEquals(29.4f, secondFloat, 0.0);
+    }
+
+    @Test
+    public void whenGivenThreeFloat_shouldReturnThirdVariableMaximum() {
+        MaximumVariable maximumVariable = new MaximumVariable();
+        float thirdFloat = maximumVariable.maximumFloat(2.1f, 12.4f, 21.5f);
+        Assert.assertEquals(21.5f, thirdFloat, 0.0);
+    }
 }

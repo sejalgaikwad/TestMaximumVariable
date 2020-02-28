@@ -11,4 +11,15 @@ public class MaximumVariable {
         }
         return maxValue;
     }
+
+    public Float maximumFloat(Float firstVariable, Float secondVariable, Float thirdVariable) {
+        Float maxValue=firstVariable;
+        if (secondVariable.compareTo(maxValue) > 0) {
+            maxValue = secondVariable;
+        }
+        if (thirdVariable.compareTo(maxValue) > 0) {
+            maxValue = thirdVariable;
+        }
+        return maxValue;
+    }
 }
