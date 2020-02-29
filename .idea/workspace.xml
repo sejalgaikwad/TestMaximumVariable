@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1534dcd9-76ef-472d-91fb-624280efd856" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumVariable/MaximumVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumVariable/MaximumVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MaximumVariableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MaximumVariableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
       <recent name="MaximumVariable" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaximumVariableTest">
+  <component name="RunManager" selected="Gradle.MaximumVariableTest.whenGivenThreeIntegers_shouldReturnFirstVariableMaximum">
     <configuration name="MaximumVariableTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -84,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MaximumVariableTest" />
         <item itemvalue="Gradle.MaximumVariableTest.whenGivenThreeIntegers_shouldReturnFirstVariableMaximum" />
+        <item itemvalue="Gradle.MaximumVariableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -103,22 +105,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1582893488318">
+    <state x="1264" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1582953024146">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582893488318" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1582893488317">
+    <state x="1264" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1582953024146" />
+    <state width="1807" height="222" key="GridCell.Tab.0.bottom" timestamp="1582955634713">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582893488317" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1582893488316">
+    <state width="1807" height="222" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582955634713" />
+    <state width="1807" height="222" key="GridCell.Tab.0.center" timestamp="1582955634712">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582893488316" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1582893488317">
+    <state width="1807" height="222" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582955634712" />
+    <state width="1807" height="222" key="GridCell.Tab.0.left" timestamp="1582955634711">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582893488317" />
+    <state width="1807" height="222" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582955634711" />
+    <state width="1807" height="222" key="GridCell.Tab.0.right" timestamp="1582955634713">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="222" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582955634713" />
+    <state x="1107" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1582952142432">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1107" y="381" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582952142432" />
     <state x="647" y="149" width="683" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582894067624">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
